@@ -1,6 +1,6 @@
 # Training-Josh-
 
-Problem Statement 1 - class and methods
+**Problem Statement 1 - class and methods**
 
 Implement a food ordering portal using class:
 Food Ordering Portal has functionalities:
@@ -11,7 +11,7 @@ Food Ordering Portal has functionalities:
   4. Change status of order
 
 
-Problem Statement 2 - modules
+**Problem Statement 2 - modules**
 
 Given 3 Superheros with each having superpower. Write a script to find whether given superhero has the power or not.
 Use one class and one module only.
