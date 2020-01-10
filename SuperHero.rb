@@ -1,15 +1,14 @@
+#--------------------superhero--------------------
 
 module SuperPower
 
   def test_power power
-    #puts power , power.class
-    #puts @super_power ,@super_power.class
     if @super_power == power
       puts "\tcan #{power} ? : Yes"
-      return true
+      true
     else
       puts "\tcan #{power} ? : No"
-      return false
+      false
     end
   end
   
@@ -33,7 +32,7 @@ end
 #testing powers
 #spiderman's power is jump which is passed through constructor
 spiderman = SuperHero.new("Spiderman" , "jump")
-superman.show_superhero()
+spiderman.show_superhero()
 # passing wrong power to function for testing
 spiderman.test_power("fly")
 spiderman.test_power("run")
