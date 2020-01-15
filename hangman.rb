@@ -1,7 +1,7 @@
 ##------------------Hangman-------------------------------
 
 #---intiallizations---
-word_list = ["brad","monkey","dog","cat","koala","tree","hangman","ruby","rails"]
+word_list = %w[brad monkey dog cat koala tree hangman ruby rails]
 # e.g. "brad" return random word using sample method 
 word = word_list.sample
 
@@ -30,7 +30,7 @@ print "fill the blanks :  #{user_guess}"
 #index = word_list.find_index(word)
 
 #---game logic---
-a=[]
+a = [] 
 win = false
 while attempts != 0 
   puts "\n\n\tAttempts left - #{attempts}"
@@ -66,4 +66,3 @@ if ! win
 else 
   puts "\n\n\t:) ...You Won\n\n\n"
 end
-
